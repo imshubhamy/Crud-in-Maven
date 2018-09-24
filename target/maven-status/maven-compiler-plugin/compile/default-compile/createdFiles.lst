@@ -1,0 +1,6 @@
+com\mycompany\crud\DeleteServlet.class
+com\mycompany\crud\SaveServlet.class
+com\mycompany\crud\Emp.class
+com\mycompany\crud\ViewServlet.class
+.netbeans_automatic_build
+com\mycompany\crud\EmpDao.class
