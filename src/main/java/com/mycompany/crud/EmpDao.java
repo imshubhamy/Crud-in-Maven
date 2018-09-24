@@ -93,9 +93,9 @@ public class EmpDao {
             ResultSet rs=ps.executeQuery();  
             if(rs.next()){  
                 e.setId(rs.getInt(1));  
-                e.setName(rs.getString(2));  
-                e.setPassword(rs.getString(3));  
-                e.setEmail(rs.getString(4));  
+                e.setName(rs.getString(2));   
+                e.setEmail(rs.getString(3));   
+                e.setPassword(rs.getString(4));
                 e.setCountry(rs.getString(5));  
             }  
             con.close();  
@@ -113,9 +113,9 @@ public class EmpDao {
             while(rs.next()){  
                 Emp e=new Emp();  
                 e.setId(rs.getInt(1));  
-                e.setName(rs.getString(2));  
-                e.setPassword(rs.getString(3));  
-                e.setEmail(rs.getString(4));  
+                e.setName(rs.getString(2));    
+                e.setEmail(rs.getString(4)); 
+                e.setPassword(rs.getString(3)); 
                 e.setCountry(rs.getString(5));  
                 list.add(e);  
             }  
